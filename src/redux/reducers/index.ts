@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import counterReducer from '../counter';
+import dataReducer from '../data';
 
 const rootReducer = combineReducers({
-    counter: counterReducer,
+    users: dataReducer,
 });
 
 export type RootState = ReturnType<typeof rootReducer>;

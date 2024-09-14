@@ -1,0 +1,26 @@
+.main-div{
+    padding: 40px;
+}
+.main-table {
+    width: 100%;
+    border-collapse: collapse; 
+    border-radius: 8px; 
+    overflow: hidden; 
+}
+
+.main-column {
+    padding: 10px; 
+    text-align: left; 
+}
+
+.main-row:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+.main-row:hover {
+    background-color: #e0e0e0; 
+}
+
+.main-table-head {
+    background-color: #d9d9d9; 
+}
